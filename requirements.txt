@@ -1,6 +1,6 @@
-torch==2.6.0
-torchvision==0.21.0
-torchaudio==2.6.0
+torch==2.2.1
+torchvision==0.17.1
+torchaudio==2.2.1
 streamlit==1.51.0
 numpy==1.26.4
 Pillow==10.0.0

@@ -5,8 +5,8 @@ import clip
 from PIL import Image
 import os
 
-checkpoint_path = r"Model\\clip_fashion_export.pt"
-folder_path = r"archive\\fashion-dataset\\images"
+checkpoint_path = r"Model/clip_fashion_export.pt"
+folder_path = r"archive/fashion-dataset/images"
 features_path = "image_features.pt"
 
 device = "cuda" if torch.cuda.is_available() else "cpu"

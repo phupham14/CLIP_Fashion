@@ -26,7 +26,7 @@ Chứa:
 
 ## 🧠 Model
 
-File model đã export được đặt tại: Model/clip_fashion_export.pt
+File model đã export được đặt tại: image_features.pt
 
 
 Model bao gồm:
@@ -42,4 +42,27 @@ Model bao gồm:
 ```bash
 git clone https://github.com/phupham14/CLIP_Fashion
 cd CLIP_Fashion
+```
 
+### 2. Cài đặt các thư viện cần thiết
+```bash
+pip install torch torchvision torchaudio streamlit pandas numpy pillow
+```
+### 3. Chuẩn bị dataset 
+- Tải dataset Fashion Product Images từ Kaggle:
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+- Giải nén dataset, đặt file styles.csv và thư mục ảnh trong folder CLIP_Fashion
+
+### 4. Load model
+- Model đã được export sẵn tại:
+```bash
+image_features.pt
+```
+- Bạn không cần tải lại từ OpenAI.
+
+### 5. Chạy Streamlit app
+```bash
+streamlit run app.py
+```
+- Mở trình duyệt theo link được hiển thị trên terminal (mặc định http://localhost:8501)
+- Nhập mô tả sản phẩm để tìm kiếm ảnh thời trang tương ứng.

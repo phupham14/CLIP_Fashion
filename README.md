@@ -19,14 +19,14 @@ Tìm kiếm sản phẩm thời trang bằng mô tả văn bản, sử dụng m�
 Dùng dataset thời trang từ Kaggle: **Fashion Product Images Dataset**  
 
 Chứa:
-- ~44k ảnh
-- 
+- ~44k ảnh kèm theo caption
+- Link dataset: https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
 ---
 
 ## 🧠 Model
 
-File model đã fine-tune được đặt tại: Model/clip_fashion_export.pt
+File model đã export được đặt tại: Model/clip_fashion_export.pt
 
 
 Model bao gồm:

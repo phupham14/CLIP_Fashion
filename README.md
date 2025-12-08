@@ -26,7 +26,7 @@ Chứa:
 
 ## 🧠 Model
 
-File model đã export được đặt tại: image_features.pt
+File model đã export được đặt tại: clip_fashion_export.pt
 
 
 Model bao gồm:
@@ -56,7 +56,7 @@ https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 ### 4. Load model
 - Model đã được export sẵn tại:
 ```bash
-image_features.pt
+clip_fashion_export.pt
 ```
 - Bạn không cần tải lại từ OpenAI.
 
